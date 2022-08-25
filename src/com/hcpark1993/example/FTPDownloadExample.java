@@ -3,7 +3,9 @@ package com.hcpark1993.example;
 import java.io.*;
 import java.net.*;
 import org.apache.commons.net.ftp.*;
-
+/*
+ * commons-net 3.8.0 is required.
+ */
 public class FTPDownloadExample {
 
 	public static void main(String[] args) throws SocketException, IOException {
