@@ -13,6 +13,10 @@ public class FTPDownloadExample {
 		ftpClient.setControlEncoding("UTF-8");
 		ftpClient.connect("127.0.0.1", 21);
 		
+		ftpClient.setSoTimeout(3000);
+		//ftpClient.enterLocalActiveMode();
+		ftpClient.enterLocalPassiveMode();
+		
 		if (!FTPReply.isPositiveCompletion(ftpClient.getReplyCode())) {
 			System.out.println("Fail to connect.");
 			return;
