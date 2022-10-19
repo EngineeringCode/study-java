@@ -51,6 +51,9 @@ public class SocketServerExample {
 			if(e.getMessage().contains("Socket is closed")) {
 				System.out.println("연결이 끊겼습니다.");
 				return;
+			} else if(e.getMessage().contains("Connection refused")) {
+				System.out.println("연결에 실패하였습니다.");
+				return;
 			}
 			e.printStackTrace();
 		}
