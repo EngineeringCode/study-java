@@ -1,4 +1,4 @@
-package com.hcpark1993.example;
+package com.hcpark1993.example.ftp;
 
 import java.io.*;
 import java.net.*;
