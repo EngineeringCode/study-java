@@ -1,14 +1,14 @@
 package com.hcpark1993.example.dfs;
 
-public class Recursive {
+public class RecursiveForDFS {
 	/*
 	 * DFS(Depth-First-Search) 예제
 	 * 루트 노드에서 간선을 따라 깊이(depth)를 우선으로 모든 노드를 방문하는 재귀 함수 구현
 	 */
 
 	public static void main(String[] args){
-		int countNode = 6;
-		int[][] edges = new int[][]{{1,3}, {3,4}, {3,5}, {1,2}, {2,6}};
+		int countNode = 7;
+		int[][] edges = new int[][]{{1,3}, {3,4}, {3,5}, {1,2}, {2,6}, {1, 7}};
 		boolean[] isVisited = new boolean[countNode+1];
 		
 		dfsRecursive(edges, countNode, 1, isVisited);
