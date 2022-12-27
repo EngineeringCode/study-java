@@ -14,7 +14,7 @@ public class StackForDFS {
 		int[][] edges = new int[][]{{1,3}, {3,4}, {3,5}, {1,2}, {2,6}, {1, 7}};
 		boolean[] isVisited = new boolean[countNode+1];
 		
-		Stack<Integer> stack = new Stack<>();
+		Stack<Integer> stack = new Stack<Integer>();
 		stack.push(1);
 		
 		while(!stack.isEmpty()) {
