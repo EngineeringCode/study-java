@@ -25,5 +25,8 @@ hs_err_pid*
 
 /target/
 
+.settings
+.classpath
+
 # etc
 *.jpg
