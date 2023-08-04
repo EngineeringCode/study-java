@@ -1,8 +1,8 @@
 package com.hcpark1993.example.datatype;
 
 /*
- * Variables: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/variables.html
- * Primitive Data Types: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
+ * Variables: https://docs.oracle.com/javase/specs/jls/se17/html/jls-4.html#jls-4.12
+ * Variables of Primitive Type: https://docs.oracle.com/javase/specs/jls/se17/html/jls-4.html#jls-4.12.1
  */
 public class DataTypeExample {
 
