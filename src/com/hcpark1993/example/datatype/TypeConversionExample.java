@@ -11,6 +11,8 @@ public class TypeConversionExample {
 		
 		if(floatValue == (float) intValue) {
 			System.out.println("같습니다.");
+		} else {
+			System.out.println("다릅니다.");
 		}
 		
 		String stringValue = "100";
