@@ -1,9 +1,11 @@
 package com.hcpark1993.example.system;
 
+/*
+ * https://docs.oracle.com/en/java/javase/17/docs/api/index.html#currentTimeMillis--
+ */ 
 public class ProcessingTimeExample {
-	/*
-	 * https://docs.oracle.com/javase/8/docs/api/java/lang/System.html#currentTimeMillis--
-	 * 
+	/* 
+	 * 두 코드 사이에 소요된 처리 시간을 측정한다.
 	 * Measure processing time between targeted code.
 	 */
 	public static void main(String[] args){
