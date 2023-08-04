@@ -39,7 +39,7 @@ public class DataTypeExample {
 		boolean booleanValue = true;
 		System.out.println("booleanValue: " + booleanValue);
 		
-		// 문자, -128 ~ 127
+		// 문자, 0 ~ 65,535
 		char charValue = 'P';
 		System.out.println("charValue: " + charValue);
 		charValue = 80;
