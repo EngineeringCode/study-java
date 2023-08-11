@@ -1,7 +1,7 @@
 package com.hcpark1993.example.statements;
 
 /*
- * 6.3.2.3: https://docs.oracle.com/javase/specs/jls/se17/html/jls-6.html#jls-6.3.2.3
+ * while Statements: https://docs.oracle.com/javase/specs/jls/se17/html/jls-6.html#jls-6.3.2.3
  */
 public class WhileExample {
 	
