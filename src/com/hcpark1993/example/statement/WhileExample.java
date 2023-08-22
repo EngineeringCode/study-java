@@ -12,7 +12,7 @@ public class WhileExample {
 		while(a <= b) {
 			System.out.println("변수 a의 현재값: " + a);
 			System.out.println("변수 b의 현재값: " + b);
-			a = a +1;
+			a = a + 1;
 		}
 		
 		System.out.println("변수 a의 최종값: " + a);
