@@ -7,6 +7,7 @@ public class ArrayExample {
 	
 	public static void main(String[] args){
 		int[] oneDimensionArray = {1, 2, 3, 4, 5};
+		
 		for(int i=0; i<oneDimensionArray.length; i++) {
 			System.out.print(oneDimensionArray[i] + " ");
 		}
