@@ -4,7 +4,7 @@ import java.util.*;
 public class QueueForBFS {
 	/*
 	 * BFS(Breadth-First-Search) 예제
-	 * 루트 노드에서 간선을 따라 너비(breadth)를 우선으로 모든 노드를 방문하는 함수를 스택으로 구현
+	 * 루트 노드에서 간선을 따라 너비(breadth)를 우선으로 모든 노드를 방문하는 함수를 큐로 구현
 	 * 
 	 * 해설 주소: 
 	 */
