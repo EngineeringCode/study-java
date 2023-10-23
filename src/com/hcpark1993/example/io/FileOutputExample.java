@@ -1,6 +1,5 @@
 package com.hcpark1993.example.io;
 
-import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
