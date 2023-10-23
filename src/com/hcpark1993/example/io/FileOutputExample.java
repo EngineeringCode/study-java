@@ -11,7 +11,7 @@ public class FileOutputExample {
 		FileOutputStream fileOutputStream = new FileOutputStream("example.txt");
 		byte value = 32;
 		fileOutputStream.write(value);
-		System.out.print(value + " is wrote.");
+		System.out.print(value + " is written.");
 		fileOutputStream.close();
 	}
 }
